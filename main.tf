@@ -13,7 +13,7 @@ provider "aws" {
         #profile = "default"
 	}
 
-resource "aws_instance" "Shashiinfra" {
+resource "aws_instance" "mahaveerinfra" {
 	ami = "ami-06e46074ae430fba6" 
 	instance_type = "t2.micro"
 }
